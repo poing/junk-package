@@ -1,0 +1,19 @@
+{
+    "name": "poing/junk-package",
+    "description": "Just a test package",
+    "type": "library",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Poing\\JunkPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "poing",
+            "email": "brian.lavallee@invite-comm.jp"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
